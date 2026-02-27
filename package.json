@@ -1,0 +1,28 @@
+{
+  "name": "ibm-cos-uploader",
+  "version": "1.0.0",
+  "description": "Production-ready IBM Cloud Object Storage file uploader using ibm-cos-sdk",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "lint": "echo \"Add eslint if needed\""
+  },
+  "keywords": [
+    "ibm",
+    "cloud-object-storage",
+    "cos",
+    "s3",
+    "upload"
+  ],
+  "author": "Mahesh Langote",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ibm-cos-sdk": "^1.13.4"
+  }
+}
